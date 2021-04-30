@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href= "icone.png">
+  </head>
+  <body>
+    
+    <div id="container">
+      <div id="header">
+        <div id="mesDisplay"></div>
+        <div>
+          <button id="voltar">Voltar</button>
+          <button id="proximo">Proximo</button>
+        </div>
+      </div>
+
+      <div id="dias">
+            <div>Domingo</div>
+            <div>Segunda</div>
+            <div>Terca</div>
+            <div>Quarta</div>
+            <div>Quinta</div>
+            <div>Sexta</div>
+            <div>Sabado</div>
+        </div>
+
+      <div id="calendario"></div>
+    </div>
+
+    <div id="novoEvento">
+      <h2>Novo Evento</h2>
+
+      <input id="tituloEvento" placeholder="Titulo do Evento" />
+
+      <button id="salvar">Save</button>
+      <button id="cancelar">Cancel</button>
+    </div>
+
+    <div id="deletarEvento">
+      <h2>Evento</h2>
+
+      <p id="textoEvento"></p>
+
+      <button id="deletar">Deletar</button>
+      <button id="fechar">Fechar</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
